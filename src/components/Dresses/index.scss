@@ -1,0 +1,68 @@
+.dresses{
+    padding-bottom: 40px;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        transform: translateY(-5px);
+    }
+    &__item{
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+    img{
+        width: 200px;
+        height: 100%;
+    }
+    &__name{
+        font-size: 15px;
+        color: #000000;
+        margin-top: 10px;
+    }
+    &__price{
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #000000;
+    }
+    &__item{
+        justify-content: space-between;
+        position: relative;
+        label{
+            position: absolute;
+            top: 6px;
+            right: 0;
+        }
+    }
+}
+
+.checkbox{
+ display: none;
+}
+.fake{
+display: block;
+width: 32px;
+height: 32px;
+position: relative;
+border: 1px solid #c7c7c7;
+box-sizing: border-box;
+border-radius: 8px;
+background: url('../../assets/icons/plus.svg') center no-repeat;
+&::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: url('../../assets//icons/check.svg') center no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3;
+    background-color: #ED165F;
+}
+}
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}

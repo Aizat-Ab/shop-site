@@ -1,0 +1,104 @@
+{
+    "goods": [
+      {
+        "id": 0,
+        "imageUrl": "https://ru.files.fm/u/ss8r4w6qp",
+        "name": "Checked ladies trouser",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 5390
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://ltdfoto.ru/images/engin-akyurt-5raPrOhbKQo-unsplash-1.png",
+        "name": "Ladies bush pants",
+        "types": [0],
+        "sizes": [26, 30, 40],
+        "price": 3454
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://ltdfoto.ru/images/Twill-paper-bag-trousers---White---Ladies-_-HM-GB-1.png",
+        "name": "Twill paper bag trousers",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 2395
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://ltdfoto.ru/images/engin-akyurt-BAoncvnAl8I-unsplash-1.png",
+        "name": "Red lightweight gown",
+        "types": [1],
+        "sizes": [26, 30, 40],
+        "price": 1275
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://ltdfoto.ru/images/engin-akyurt-TDOClniEwmI-unsplash-1.png",
+        "name": "Blue botton-down gown",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 4215
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://ltdfoto.ru/images/Midnight-Doll-Cold-Shoulder-Top-with-Pleated-Skirt-Satin-Two-Piece-Dress-_-Dillards-1.png",
+        "name": "Top with Pleated Skirt Satin",
+        "types": [0],
+        "sizes": [30, 40],
+        "price": 7
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://ltdfoto.ru/images/Summer-Dresses-for-Women-Over-40-1.png",
+        "name": "Summer Dress for Women",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 6753
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://ltdfoto.ru/images/Winter-Warm-Woolen-Parka-1.png",
+        "name": "Winter Warm Woolen Parka",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 1,
+        "category": 1,
+        "rating": 10
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://ltdfoto.ru/images/gustavo-spindula-l7wrlsKDmCE-unsplash-1.png",
+        "name": "Multicolored armless top",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 1395
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://ltdfoto.ru/images/engin-akyurt-JWZe-4hg9aA-unsplash-1.png",
+        "name": "Mini skirt",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 2185
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://ltdfoto.ru/images/Fashionable-women-suits-Women-work-clothes-Hand-Tailored-Women-Ladies-Custom-Made-Business-Office-Tuxedos-Work-Wear-Suits-1.png",
+        "name": "Women office suit",
+        "types": [1],
+        "sizes": [26, 30, 40],
+        "price": 7753
+      },
+      {
+        "id": 11,
+        "imageUrl": "https://ltdfoto.ru/images/Shop-Single-Breasted-Cami-Top-online_-SheIn-offers-1.png",
+        "name": "Single Breasted Cami Top",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 4415,
+        "category": 0,
+        "rating": 8
+      }
+    ]
+  }

@@ -1,0 +1,34 @@
+.goods{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 45px 60px;
+    &__search{
+        position: relative;
+        input{
+        width: 250px;
+        height: 45px;
+        border: 1px solid #d1d1d1;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-left: 40px;
+        outline: none;
+        caret-color: #ED165F;
+        }
+    &::before{
+        position: absolute;
+        content: '';
+        top: 14px;
+        left: 14px;
+        width: 15px;
+        height: 15px;
+        background-image: url('../../assets/icons/search.svg');
+        }
+    }
+    &__clear{
+        position: relative;
+        width: 18px;
+        height: 18px;
+        left: 5px;
+        top: 5px ;
+    }
+}

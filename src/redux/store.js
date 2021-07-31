@@ -10,4 +10,4 @@ const allReaducers = combineReducers({
 })
 const store = createStore(allReaducers,composeWithDevTools(applyMiddleware(thunk)));
 
-export default store; 
+export default store;

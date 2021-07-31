@@ -3,14 +3,19 @@ import './index.scss';
 import { addToCart } from '../../redux/action/cart';
 import { useDispatch } from 'react-redux';
 
-const Dresses = ({id, name, imageUrl, price}) => {
+const Dresses = ({id, name, imageUrl, price, onClickAddPizza, addedCount}) => {
     
     const dispatch = useDispatch();
 
-    const onAddToCart = () => {
-        dispatch(addToCart(id, name, imageUrl, price))
+    const onAddPizza = () => {
+        const obj = {
+            id,
+            name, 
+            imageUrl, 
+            price
+        }
+        onClickAddPizza(obj)
     }
-
 
     return (
         <div className='dresses'>
@@ -19,7 +24,7 @@ const Dresses = ({id, name, imageUrl, price}) => {
             <p className='dresses__name'>{name}</p>
             <div className='dresses__item row'>
             <p className='dresses__price'>{price} руб.</p>
-            <label onClick={onAddToCart} className='label'>
+            <label onClick={onAddPizza} className='label'>
             <input className='checkbox' type='checkbox'/>
             <span className='fake'/>
            </label>

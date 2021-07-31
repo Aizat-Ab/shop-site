@@ -4,6 +4,10 @@
     &:hover{
         transform: translateY(-5px);
     }
+    &__span{
+        color: black;
+        font-size: 14px;
+    }
     &__item{
         padding-right: 40px;
         box-sizing: border-box;
